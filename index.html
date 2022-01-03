@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
     <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -384,8 +384,127 @@
 
         <!--==================== PORTFOLIO ====================-->
         <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Side Projects</span>
 
+            <div class="portfolio__container container swiper">
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO 1 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
 
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Security Analysis App</h3>
+                            <p class="portfolio__description">A WebApp designed to analyse the securities of the
+                                National Stock Exchange India (NSE).</p>
+                            <!-- <a href="" class="button button--flex button--small portfolio__button">Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a> -->
+                            <a href="https://github.com/nishu8/Security-Analysis-ML"
+                                class="button button--flex button--small portfolio__button">
+                                <i class="uil uil-github-alt"></i>
+                                &nbsp;Repo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 2 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Lungcure App</h3>
+                            <p class="portfolio__description">Lung disease detection web app
+                                with payment integration.</p>
+                            <a href="https://github.com/nishu8/lungcure"
+                                class="button button--flex button--small portfolio__button">
+                                <i class="uil uil-github-alt"></i>
+                                &nbsp;Repo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 3 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Credit Card Fraud Detection</h3>
+                            <p class="portfolio__description">Logistic Regression model used to determine whether the
+                                transaction is fraud based on the historical transactions.</p>
+                            <a href="https://github.com/nishu8/Fraud_Detection"
+                                class="button button--flex button--small portfolio__button">
+                                <i class="uil uil-github-alt"></i>
+                                &nbsp;Repo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 4 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio4.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Mahindra First Choice Services Case Study</h3>
+                            <p class="portfolio__description">Market/Customer Analysis using different Machine Learning
+                                Techniques for Mahindra First Choice Services</p>
+                            <a href="https://github.com/nishu8/Mahindra_First_Choice_Service_Analysis"
+                                class="button button--flex button--small portfolio__button">
+                                <i class="uil uil-github-alt"></i>
+                                &nbsp;Repo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 5 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio5.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Sentiment Analysis</h3>
+                            <p class="portfolio__description">Model designed to determine the sentiments of the tweets
+                                or user input</p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                <i class="uil uil-github-alt"></i>
+                                &nbsp;Repo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 6 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio6.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Facial Recognition</h3>
+                            <p class="portfolio__description">Implementation of Transfer Learning using Google's FaceNet
+                                for facial recognition
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                <i class="uil uil-github-alt"></i>
+                                &nbsp;Repo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
+
+            </div>
         </section>
 
         <!--==================== EDUCATION ====================-->
@@ -473,7 +592,7 @@
 
 
     <!--==================== SWIPER JS ====================-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
