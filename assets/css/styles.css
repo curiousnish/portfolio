@@ -909,7 +909,8 @@ img{
 }
 
 @media screen and (min-width: 768px) {
-    .container{
+    .container,
+    .main{
         margin-left: auto;
         margin-right: auto;
     }
@@ -1023,7 +1024,10 @@ img{
 }
 
 /* For large devices */
-/* @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
+    .container{
+        max-width: 768px;
+    }
     .header,
     .main,
     .footer__container{
@@ -1058,4 +1062,4 @@ img{
     .contact__inputs{
         grid-template-columns: repeat(2, 1fr);
     }
-} */
+}
