@@ -1031,6 +1031,12 @@ img{
     .nav{
         max-width: 968px;
     }
+    .home__content{
+        padding-left: 2rem;
+    }
+    .home__img{
+        transform: translateX(3.5rem);
+    }
     .header,
     .main,
     .footer__container{
