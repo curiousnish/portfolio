@@ -1028,6 +1028,9 @@ img{
     .container{
         max-width: 768px;
     }
+    .nav{
+        max-width: 968px;
+    }
     .header,
     .main,
     .footer__container{
